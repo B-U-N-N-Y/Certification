@@ -1,0 +1,382 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 33, Failures: 33, Errors: 0, Skipped: 0, Time elapsed: 140.447 s <<< FAILURE! - in TestSuite
+isRedirectionPage(com.atmecsautomation.testscripts.HomePage)  Time elapsed: 0.065 s  <<< FAILURE!
+java.lang.AssertionError: Direction Page is Not Landing expected [Home | Atmecs, Inc. | Digital Solutions & Product Engineering Services] but found []
+	at com.atmecsautomation.testscripts.HomePage.isRedirectionPage(HomePage.java:19)
+
+homePageFooter(com.atmecsautomation.testscripts.HomePage)  Time elapsed: 5.166 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to find element with xpath == //div[@id='nav_menu-6']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ATMECSINLT-087', ip: '55.55.52.203', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://www.atmecs.com/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 9d12a9b0-ce26-4f2a-a0bc-8949cc95a2da
+*** Element info: {Using=xpath, value=//div[@id='nav_menu-6']}
+	at com.atmecsautomation.testscripts.HomePage.homePageFooter(HomePage.java:26)
+
+homePageFooter(com.atmecsautomation.testscripts.HomePage)  Time elapsed: 5.144 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to find element with xpath == //div[@id='nav_menu-7']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ATMECSINLT-087', ip: '55.55.52.203', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://www.atmecs.com/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 9d12a9b0-ce26-4f2a-a0bc-8949cc95a2da
+*** Element info: {Using=xpath, value=//div[@id='nav_menu-7']}
+	at com.atmecsautomation.testscripts.HomePage.homePageFooter(HomePage.java:26)
+
+homePageFooter(com.atmecsautomation.testscripts.HomePage)  Time elapsed: 5.22 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to find element with xpath == //div[@id='nav_menu-8']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ATMECSINLT-087', ip: '55.55.52.203', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://www.atmecs.com/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 9d12a9b0-ce26-4f2a-a0bc-8949cc95a2da
+*** Element info: {Using=xpath, value=//div[@id='nav_menu-8']}
+	at com.atmecsautomation.testscripts.HomePage.homePageFooter(HomePage.java:26)
+
+homePageFooter(com.atmecsautomation.testscripts.HomePage)  Time elapsed: 5.21 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to find element with xpath == //div[@id='nav_menu-9']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ATMECSINLT-087', ip: '55.55.52.203', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://www.atmecs.com/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 9d12a9b0-ce26-4f2a-a0bc-8949cc95a2da
+*** Element info: {Using=xpath, value=//div[@id='nav_menu-9']}
+	at com.atmecsautomation.testscripts.HomePage.homePageFooter(HomePage.java:26)
+
+aboutUsFooter(com.atmecsautomation.testscripts.HomePage)  Time elapsed: 5.391 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to find element with xpath == (//a[@href='http://www.atmecs.com/about-us/'][contains(.,'About Us')])[1]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ATMECSINLT-087', ip: '55.55.52.203', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://www.atmecs.com/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 9d12a9b0-ce26-4f2a-a0bc-8949cc95a2da
+*** Element info: {Using=xpath, value=(//a[@href='http://www.atmecs.com/about-us/'][contains(.,'About Us')])[1]}
+	at com.atmecsautomation.testscripts.HomePage.aboutUsFooter(HomePage.java:34)
+
+aboutUsFooter(com.atmecsautomation.testscripts.HomePage)  Time elapsed: 5.373 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to find element with xpath == (//a[@href='http://www.atmecs.com/about-us/'][contains(.,'About Us')])[1]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ATMECSINLT-087', ip: '55.55.52.203', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://www.atmecs.com/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 9d12a9b0-ce26-4f2a-a0bc-8949cc95a2da
+*** Element info: {Using=xpath, value=(//a[@href='http://www.atmecs.com/about-us/'][contains(.,'About Us')])[1]}
+	at com.atmecsautomation.testscripts.HomePage.aboutUsFooter(HomePage.java:34)
+
+aboutUsFooter(com.atmecsautomation.testscripts.HomePage)  Time elapsed: 5.28 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to find element with xpath == (//a[@href='http://www.atmecs.com/about-us/'][contains(.,'About Us')])[1]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ATMECSINLT-087', ip: '55.55.52.203', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://www.atmecs.com/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 9d12a9b0-ce26-4f2a-a0bc-8949cc95a2da
+*** Element info: {Using=xpath, value=(//a[@href='http://www.atmecs.com/about-us/'][contains(.,'About Us')])[1]}
+	at com.atmecsautomation.testscripts.HomePage.aboutUsFooter(HomePage.java:34)
+
+aboutUsFooter(com.atmecsautomation.testscripts.HomePage)  Time elapsed: 5.347 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to find element with xpath == (//a[@href='http://www.atmecs.com/about-us/'][contains(.,'About Us')])[1]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ATMECSINLT-087', ip: '55.55.52.203', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://www.atmecs.com/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 9d12a9b0-ce26-4f2a-a0bc-8949cc95a2da
+*** Element info: {Using=xpath, value=(//a[@href='http://www.atmecs.com/about-us/'][contains(.,'About Us')])[1]}
+	at com.atmecsautomation.testscripts.HomePage.aboutUsFooter(HomePage.java:34)
+
+servicesFooter(com.atmecsautomation.testscripts.HomePage)  Time elapsed: 5.092 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to find element with xpath == (//a[@href='http://www.atmecs.com/services/'][contains(.,'Services')])[1]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ATMECSINLT-087', ip: '55.55.52.203', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://www.atmecs.com/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 9d12a9b0-ce26-4f2a-a0bc-8949cc95a2da
+*** Element info: {Using=xpath, value=(//a[@href='http://www.atmecs.com/services/'][contains(.,'Services')])[1]}
+	at com.atmecsautomation.testscripts.HomePage.servicesFooter(HomePage.java:44)
+
+servicesFooter(com.atmecsautomation.testscripts.HomePage)  Time elapsed: 5.177 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to find element with xpath == (//a[@href='http://www.atmecs.com/services/'][contains(.,'Services')])[1]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ATMECSINLT-087', ip: '55.55.52.203', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://www.atmecs.com/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 9d12a9b0-ce26-4f2a-a0bc-8949cc95a2da
+*** Element info: {Using=xpath, value=(//a[@href='http://www.atmecs.com/services/'][contains(.,'Services')])[1]}
+	at com.atmecsautomation.testscripts.HomePage.servicesFooter(HomePage.java:44)
+
+servicesFooter(com.atmecsautomation.testscripts.HomePage)  Time elapsed: 5.132 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to find element with xpath == (//a[@href='http://www.atmecs.com/services/'][contains(.,'Services')])[1]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ATMECSINLT-087', ip: '55.55.52.203', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://www.atmecs.com/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 9d12a9b0-ce26-4f2a-a0bc-8949cc95a2da
+*** Element info: {Using=xpath, value=(//a[@href='http://www.atmecs.com/services/'][contains(.,'Services')])[1]}
+	at com.atmecsautomation.testscripts.HomePage.servicesFooter(HomePage.java:44)
+
+servicesFooter(com.atmecsautomation.testscripts.HomePage)  Time elapsed: 5.201 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to find element with xpath == (//a[@href='http://www.atmecs.com/services/'][contains(.,'Services')])[1]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ATMECSINLT-087', ip: '55.55.52.203', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://www.atmecs.com/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 9d12a9b0-ce26-4f2a-a0bc-8949cc95a2da
+*** Element info: {Using=xpath, value=(//a[@href='http://www.atmecs.com/services/'][contains(.,'Services')])[1]}
+	at com.atmecsautomation.testscripts.HomePage.servicesFooter(HomePage.java:44)
+
+partnersFooter(com.atmecsautomation.testscripts.HomePage)  Time elapsed: 5.128 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to find element with xpath == (//a[@href='http://www.atmecs.com/partners/'][contains(.,'Partners')])[1]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ATMECSINLT-087', ip: '55.55.52.203', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://www.atmecs.com/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 9d12a9b0-ce26-4f2a-a0bc-8949cc95a2da
+*** Element info: {Using=xpath, value=(//a[@href='http://www.atmecs.com/partners/'][contains(.,'Partners')])[1]}
+	at com.atmecsautomation.testscripts.HomePage.partnersFooter(HomePage.java:54)
+
+partnersFooter(com.atmecsautomation.testscripts.HomePage)  Time elapsed: 5.21 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to find element with xpath == (//a[@href='http://www.atmecs.com/partners/'][contains(.,'Partners')])[1]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ATMECSINLT-087', ip: '55.55.52.203', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://www.atmecs.com/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 9d12a9b0-ce26-4f2a-a0bc-8949cc95a2da
+*** Element info: {Using=xpath, value=(//a[@href='http://www.atmecs.com/partners/'][contains(.,'Partners')])[1]}
+	at com.atmecsautomation.testscripts.HomePage.partnersFooter(HomePage.java:54)
+
+partnersFooter(com.atmecsautomation.testscripts.HomePage)  Time elapsed: 5.37 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to find element with xpath == (//a[@href='http://www.atmecs.com/partners/'][contains(.,'Partners')])[1]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ATMECSINLT-087', ip: '55.55.52.203', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://www.atmecs.com/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 9d12a9b0-ce26-4f2a-a0bc-8949cc95a2da
+*** Element info: {Using=xpath, value=(//a[@href='http://www.atmecs.com/partners/'][contains(.,'Partners')])[1]}
+	at com.atmecsautomation.testscripts.HomePage.partnersFooter(HomePage.java:54)
+
+partnersFooter(com.atmecsautomation.testscripts.HomePage)  Time elapsed: 5.314 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to find element with xpath == (//a[@href='http://www.atmecs.com/partners/'][contains(.,'Partners')])[1]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ATMECSINLT-087', ip: '55.55.52.203', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://www.atmecs.com/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 9d12a9b0-ce26-4f2a-a0bc-8949cc95a2da
+*** Element info: {Using=xpath, value=(//a[@href='http://www.atmecs.com/partners/'][contains(.,'Partners')])[1]}
+	at com.atmecsautomation.testscripts.HomePage.partnersFooter(HomePage.java:54)
+
+mediaFooter(com.atmecsautomation.testscripts.HomePage)  Time elapsed: 5.26 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to find element with xpath == //a[@href='#'][contains(.,'Media')]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ATMECSINLT-087', ip: '55.55.52.203', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://www.atmecs.com/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 9d12a9b0-ce26-4f2a-a0bc-8949cc95a2da
+*** Element info: {Using=xpath, value=//a[@href='#'][contains(.,'Media')]}
+	at com.atmecsautomation.testscripts.HomePage.mediaFooter(HomePage.java:64)
+
+mediaFooter(com.atmecsautomation.testscripts.HomePage)  Time elapsed: 5.359 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to find element with xpath == //a[@href='#'][contains(.,'Media')]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ATMECSINLT-087', ip: '55.55.52.203', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://www.atmecs.com/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 9d12a9b0-ce26-4f2a-a0bc-8949cc95a2da
+*** Element info: {Using=xpath, value=//a[@href='#'][contains(.,'Media')]}
+	at com.atmecsautomation.testscripts.HomePage.mediaFooter(HomePage.java:64)
+
+mediaFooter(com.atmecsautomation.testscripts.HomePage)  Time elapsed: 5.198 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to find element with xpath == //a[@href='#'][contains(.,'Media')]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ATMECSINLT-087', ip: '55.55.52.203', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://www.atmecs.com/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 9d12a9b0-ce26-4f2a-a0bc-8949cc95a2da
+*** Element info: {Using=xpath, value=//a[@href='#'][contains(.,'Media')]}
+	at com.atmecsautomation.testscripts.HomePage.mediaFooter(HomePage.java:64)
+
+mediaFooter(com.atmecsautomation.testscripts.HomePage)  Time elapsed: 5.327 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to find element with xpath == //a[@href='#'][contains(.,'Media')]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ATMECSINLT-087', ip: '55.55.52.203', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://www.atmecs.com/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 9d12a9b0-ce26-4f2a-a0bc-8949cc95a2da
+*** Element info: {Using=xpath, value=//a[@href='#'][contains(.,'Media')]}
+	at com.atmecsautomation.testscripts.HomePage.mediaFooter(HomePage.java:64)
+
+insightsFooter(com.atmecsautomation.testscripts.HomePage)  Time elapsed: 5.231 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to find element with xpath == //a[@href='#'][contains(.,'Insights')]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ATMECSINLT-087', ip: '55.55.52.203', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://www.atmecs.com/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 9d12a9b0-ce26-4f2a-a0bc-8949cc95a2da
+*** Element info: {Using=xpath, value=//a[@href='#'][contains(.,'Insights')]}
+	at com.atmecsautomation.testscripts.HomePage.insightsFooter(HomePage.java:74)
+
+insightsFooter(com.atmecsautomation.testscripts.HomePage)  Time elapsed: 5.178 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to find element with xpath == //a[@href='#'][contains(.,'Insights')]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ATMECSINLT-087', ip: '55.55.52.203', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://www.atmecs.com/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 9d12a9b0-ce26-4f2a-a0bc-8949cc95a2da
+*** Element info: {Using=xpath, value=//a[@href='#'][contains(.,'Insights')]}
+	at com.atmecsautomation.testscripts.HomePage.insightsFooter(HomePage.java:74)
+
+insightsFooter(com.atmecsautomation.testscripts.HomePage)  Time elapsed: 0.078 s  <<< FAILURE!
+org.openqa.selenium.NoSuchWindowException: 
+Currently focused window has been closed.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ATMECSINLT-087', ip: '55.55.52.203', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://www.atmecs.com/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 9d12a9b0-ce26-4f2a-a0bc-8949cc95a2da
+*** Element info: {Using=xpath, value=//a[@href='#'][contains(.,'Insights')]}
+	at com.atmecsautomation.testscripts.HomePage.insightsFooter(HomePage.java:74)
+
+insightsFooter(com.atmecsautomation.testscripts.HomePage)  Time elapsed: 0.048 s  <<< FAILURE!
+org.openqa.selenium.NoSuchWindowException: 
+Currently focused window has been closed.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ATMECSINLT-087', ip: '55.55.52.203', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://www.atmecs.com/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 9d12a9b0-ce26-4f2a-a0bc-8949cc95a2da
+*** Element info: {Using=xpath, value=//a[@href='#'][contains(.,'Insights')]}
+	at com.atmecsautomation.testscripts.HomePage.insightsFooter(HomePage.java:74)
+
+careersFooter(com.atmecsautomation.testscripts.HomePage)  Time elapsed: 0.1 s  <<< FAILURE!
+org.openqa.selenium.NoSuchWindowException: 
+Currently focused window has been closed.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ATMECSINLT-087', ip: '55.55.52.203', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://www.atmecs.com/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 9d12a9b0-ce26-4f2a-a0bc-8949cc95a2da
+*** Element info: {Using=xpath, value=(//a[@href='http://www.atmecs.com/careers/'][contains(.,'Careers')])[1]}
+	at com.atmecsautomation.testscripts.HomePage.careersFooter(HomePage.java:84)
+
+careersFooter(com.atmecsautomation.testscripts.HomePage)  Time elapsed: 0.034 s  <<< FAILURE!
+org.openqa.selenium.NoSuchWindowException: 
+Currently focused window has been closed.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ATMECSINLT-087', ip: '55.55.52.203', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://www.atmecs.com/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 9d12a9b0-ce26-4f2a-a0bc-8949cc95a2da
+*** Element info: {Using=xpath, value=(//a[@href='http://www.atmecs.com/careers/'][contains(.,'Careers')])[1]}
+	at com.atmecsautomation.testscripts.HomePage.careersFooter(HomePage.java:84)
+
+careersFooter(com.atmecsautomation.testscripts.HomePage)  Time elapsed: 0.061 s  <<< FAILURE!
+org.openqa.selenium.NoSuchWindowException: 
+Currently focused window has been closed.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ATMECSINLT-087', ip: '55.55.52.203', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://www.atmecs.com/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 9d12a9b0-ce26-4f2a-a0bc-8949cc95a2da
+*** Element info: {Using=xpath, value=(//a[@href='http://www.atmecs.com/careers/'][contains(.,'Careers')])[1]}
+	at com.atmecsautomation.testscripts.HomePage.careersFooter(HomePage.java:84)
+
+careersFooter(com.atmecsautomation.testscripts.HomePage)  Time elapsed: 0.044 s  <<< FAILURE!
+org.openqa.selenium.NoSuchWindowException: 
+Currently focused window has been closed.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ATMECSINLT-087', ip: '55.55.52.203', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://www.atmecs.com/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 9d12a9b0-ce26-4f2a-a0bc-8949cc95a2da
+*** Element info: {Using=xpath, value=(//a[@href='http://www.atmecs.com/careers/'][contains(.,'Careers')])[1]}
+	at com.atmecsautomation.testscripts.HomePage.careersFooter(HomePage.java:84)
+
+contactUsFooter(com.atmecsautomation.testscripts.HomePage)  Time elapsed: 0.079 s  <<< FAILURE!
+org.openqa.selenium.NoSuchWindowException: 
+Currently focused window has been closed.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ATMECSINLT-087', ip: '55.55.52.203', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://www.atmecs.com/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 9d12a9b0-ce26-4f2a-a0bc-8949cc95a2da
+*** Element info: {Using=xpath, value=(//a[@href='http://www.atmecs.com/contact-us/'][contains(.,'Contact Us')])[1]}
+	at com.atmecsautomation.testscripts.HomePage.contactUsFooter(HomePage.java:94)
+
+contactUsFooter(com.atmecsautomation.testscripts.HomePage)  Time elapsed: 0.048 s  <<< FAILURE!
+org.openqa.selenium.NoSuchWindowException: 
+Currently focused window has been closed.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ATMECSINLT-087', ip: '55.55.52.203', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://www.atmecs.com/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 9d12a9b0-ce26-4f2a-a0bc-8949cc95a2da
+*** Element info: {Using=xpath, value=(//a[@href='http://www.atmecs.com/contact-us/'][contains(.,'Contact Us')])[1]}
+	at com.atmecsautomation.testscripts.HomePage.contactUsFooter(HomePage.java:94)
+
+contactUsFooter(com.atmecsautomation.testscripts.HomePage)  Time elapsed: 0.041 s  <<< FAILURE!
+org.openqa.selenium.NoSuchWindowException: 
+Currently focused window has been closed.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ATMECSINLT-087', ip: '55.55.52.203', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://www.atmecs.com/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 9d12a9b0-ce26-4f2a-a0bc-8949cc95a2da
+*** Element info: {Using=xpath, value=(//a[@href='http://www.atmecs.com/contact-us/'][contains(.,'Contact Us')])[1]}
+	at com.atmecsautomation.testscripts.HomePage.contactUsFooter(HomePage.java:94)
+
+contactUsFooter(com.atmecsautomation.testscripts.HomePage)  Time elapsed: 0.053 s  <<< FAILURE!
+org.openqa.selenium.NoSuchWindowException: 
+Currently focused window has been closed.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ATMECSINLT-087', ip: '55.55.52.203', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://www.atmecs.com/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 9d12a9b0-ce26-4f2a-a0bc-8949cc95a2da
+*** Element info: {Using=xpath, value=(//a[@href='http://www.atmecs.com/contact-us/'][contains(.,'Contact Us')])[1]}
+	at com.atmecsautomation.testscripts.HomePage.contactUsFooter(HomePage.java:94)
+
